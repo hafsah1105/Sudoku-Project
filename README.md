@@ -1,5 +1,4 @@
-# Sudoku-Project
-# Python Sudoku
+# Python-Sudoku-Project
 
 A graphical Sudoku application developed in Python using Pygame.
 
