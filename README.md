@@ -42,3 +42,55 @@ Python 3 is required.
 
 ```bash
 pip install pygame
+```
+
+### 3. Run the Application
+
+If the Python file is named `sudoku.py`:
+
+```bash
+python sudoku.py
+```
+
+If using the original filename:
+
+```bash
+python finalsudoku.py
+```
+
+## Controls
+
+The application includes the following options:
+
+- **Solve** - solves the current Sudoku puzzle
+- **Check** - checks the answers entered by the user
+- **Delete** - removes a user-entered value from the selected cell
+- **Solve Your Own** - clears the board so the user can enter their own Sudoku puzzle
+- **Classic** - generates a new 9×9 Sudoku puzzle
+- **4x4** - generates a new 4×4 Sudoku puzzle
+- **Exit** - closes the application
+
+Numbers can be entered using either the keyboard or the number buttons displayed in the application.
+
+## What I Learned
+
+This project gave me experience with:
+
+- Python programming
+- Recursion and backtracking
+- Algorithmic problem-solving
+- Two-dimensional data structures
+- Input validation
+- Building a graphical interface using Pygame
+- Breaking a larger problem into smaller functions
+
+## Future Improvements
+
+If I were to continue developing the project, I would consider:
+
+- Refactoring the code to reduce the use of global variables
+- Separating the Sudoku logic and graphical interface into different modules
+- Adding automated tests
+- Improving the puzzle-generation process and introducing difficulty levels
+- Improving error handling
+- Further improving the user interface
